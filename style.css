@@ -34,7 +34,7 @@ body {
   min-height: 100vh;
   padding: 6rem 2em;
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: var(--Light-gray);
+  background-color: var(--Light-grayish-blue);
   font-weight: 500;
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@ body {
 }
 
 .testimonial > * {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .testimonial--1 {
@@ -168,12 +168,15 @@ body {
 
 @media only screen and (min-width: 1200px) {
   body {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   .container {
-    width: min(100%, 120rem);
+    width: min(100%, 135rem);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, min-content);
+  }
+  .testimonial {
+    padding: 3rem;
   }
 
   .testimonial--1 {
@@ -200,6 +203,6 @@ body {
   }
 
   .testimonial > * {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
 }
